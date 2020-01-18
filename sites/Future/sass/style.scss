@@ -1,0 +1,127 @@
+
+ 
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+
+
+body{
+    font-size:  1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+    padding:  0;
+    max-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  ul li{
+    list-style: none;
+  }
+
+ a{
+  text-decoration: none;
+  color: black ;
+  font-weight: 400;
+ } 
+
+.container{
+    width: 100%;z-index: 3;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 12px;
+    padding-left: 12px;
+    overflow: hidden;
+}
+
+
+
+header{
+  display: flex;
+justify-content: space-between;
+position: absolute;
+width: 100%; }
+
+.logo{
+  font-size: 2em;
+  float: left;
+  padding: 0.15em;
+}
+nav {float: right;}
+nav li{display: inline-block; padding-left: 0.5rem;padding-right: 0.5rem;}
+
+
+.btn_lg{
+  padding: .875rem 2.25rem;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border-radius: .3em;
+}
+
+button{
+  display: inline-block;
+  font-weight: 600;
+  padding: .40em 1.20em;
+  background-color: white;
+  border: none;
+  font-size: 1rem;
+  user-select: none;
+  border-radius: .3rem;
+}
+
+button:hover{
+  text-decoration: none;
+}
+ .bacground{  
+  position: relative;
+  background-image: url('./img/mountains.png') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; height: 100%;
+}
+.first{
+  height: 100vh;
+  padding: 8em;
+  text-align: center ;
+}
+.first h1{
+  color: white;
+  font-size: 3rem;
+  line-height: 3.5rem;
+}
+
+.products{
+  justify-content: space-around;
+  display: flex;
+  padding: 1em;}
+.product{
+  padding: 2.5rem;
+  text-align: center;
+  align-self: flex-end ;
+  display: block;
+  border-radius: 0.3;
+  width: 268px;
+  margin: 0, 1em 0, 1em;
+  box-shadow: 0 0 35px rgba(140, 152, 164, 0.125);
+}
+
+.paralax{
+  width: 200px;
+  height: 100%;
+}
+
+.hoverUP{
+  transition: all 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 760px) {
+   nav li{
+    display: block;
+    text-align: center;
+    padding-bottom: 0.9em;
+  }
+
+}
+

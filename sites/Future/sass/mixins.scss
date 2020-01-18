@@ -1,0 +1,20 @@
+@mixin flexbox() {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+  }
+
+  @mixin bg_image(){
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@mixin textUpper(){
+text-transform: uppercase;}
+
+@mixin boxShadow(){
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
+}
+
